@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+
+html {
+  background: rgb(21, 96, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 96, 117, 1) 0%,
+    rgba(239, 249, 252, 1) 10%,
+    rgba(239, 249, 252, 1) 90%,
+    rgba(21, 96, 117, 1) 100%
+  );
+
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #a1acb8 #000;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-weight: 300;
+  overflow: auto;
+  background: #e4e7eb;
+  background: linear-gradient(180deg, #e4e7eb 0%, #a1acb8 100%);
+  animation: fadeInAnimation ease-out 3s 1 forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  html {
+    padding: 0 10% 0 10%;
+  }
+
+  body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  body::-webkit-scrollbar-track {
+    background: #156075;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #2197b8;
+    border-radius: 8px;
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background: #6acae4;
+  }
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #8b92a5;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #b5ccf6;
+}
+body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
