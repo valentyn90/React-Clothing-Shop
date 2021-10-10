@@ -1,0 +1,15 @@
+.sign-in {
+  width: 30vw;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+h2 {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}

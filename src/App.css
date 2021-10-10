@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
 
 html {
-  background: rgb(21, 96, 117);
-  background: linear-gradient(
-    90deg,
-    rgba(21, 96, 117, 1) 0%,
-    rgba(239, 249, 252, 1) 10%,
-    rgba(239, 249, 252, 1) 90%,
-    rgba(21, 96, 117, 1) 100%
-  );
-
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #a1acb8 #000;
@@ -23,13 +14,23 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
+  padding: 1rem 4rem;
   font-family: 'Raleway', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-weight: 300;
   overflow: auto;
-  background: #e4e7eb;
-  background: linear-gradient(180deg, #e4e7eb 0%, #a1acb8 100%);
+  background: linear-gradient(
+    180deg,
+    #fcfcf3,
+    #fcfcf3,
+    #fdfdf2,
+    #fdfdf2,
+    #fefef1,
+    #fefef1,
+    #fffff0,
+    #fffff0
+  );
   animation: fadeInAnimation ease-out 3s 1 forwards;
 }
 @keyframes fadeInAnimation {
@@ -74,4 +75,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 body::-webkit-scrollbar-track {
   background: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #000;
 }

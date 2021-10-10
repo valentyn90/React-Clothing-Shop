@@ -1,0 +1,41 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6rem;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 0.6rem 1.2rem;
+      text-decoration: none;
+      background-color: #091c41;
+      color: #fff;
+      border: 1px solid #091c41;
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      font-weight: 200;
+      letter-spacing: 2px;
+      padding: 0.5rem 1rem;
+      border-radius: 0.3rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      margin-left: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    }
+  }
+}

@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
+  border-radius: 0.5rem;
 
   .image {
     width: 100%;
@@ -18,7 +19,7 @@
     height: 5%;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: clamp(0.6rem, 2vw, 1.6rem);
 
     .name {
       width: 90%;
@@ -29,4 +30,7 @@
       width: 10%;
     }
   }
+}
+.image {
+  border-radius: 0.5rem;
 }
