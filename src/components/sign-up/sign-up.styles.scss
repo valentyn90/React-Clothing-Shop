@@ -1,29 +1,27 @@
-.sign-in {
+.sign-up {
   width: 30vw;
   min-width: 200px;
   display: flex;
   flex-direction: column;
   margin: 1rem;
 }
-.buttons {
-  display: flex;
-  justify-content: space-between;
+.button {
+  text-align: right;
 }
 h2 {
   font-family: Raleway, sans-serif;
   font-weight: 400;
 }
 @media screen and (max-width: 850px) {
-  .sign-in {
+  .sign-up {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
   }
-  .buttons {
+  .button {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
