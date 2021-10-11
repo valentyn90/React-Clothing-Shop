@@ -42,26 +42,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1680px) {
-  html {
-    padding: 0 10% 0 10%;
-  }
-
-  body::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-  }
-  body::-webkit-scrollbar-track {
-    background: #156075;
-  }
-  body::-webkit-scrollbar-thumb {
-    background: #2197b8;
-    border-radius: 8px;
-  }
-  body::-webkit-scrollbar-thumb:hover {
-    background: #6acae4;
-  }
-}
 body::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -74,7 +54,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: #b5ccf6;
 }
 body::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #fefef1;
 }
 a {
   text-decoration: none;
