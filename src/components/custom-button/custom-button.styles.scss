@@ -2,6 +2,8 @@
   min-width: 165px;
   width: auto;
   height: 50px;
+  // display: flex;
+  // justify-content: center;
   letter-spacing: 2px;
   line-height: clamp(1rem, 1.2vw, 3.4rem);
   padding: 0 1rem;
@@ -25,12 +27,26 @@
     color: black;
     border: 1px solid black;
     font-weight: 300;
+
+    &:focus {
+      outline: none;
+
+      &:active {
+        transform: scale(0.9);
+        box-shadow: inset 0 0 10px #000;
+      }
+    }
   }
-  &:focus {
-    outline: none;
-  }
-  &:active {
-    transform: scale(0.9);
-    box-shadow: inset 0 0 10px #000;
+  &.inverted {
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border: none;
+    }
   }
 }
