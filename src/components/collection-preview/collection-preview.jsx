@@ -1,5 +1,7 @@
 import React from 'react';
+
 import CollectionItem from '../collection-item/collection-item.component';
+
 import './collection-preview.styles.scss';
 
 const CollectionPreview = ({ title, items }) => (
@@ -14,4 +16,5 @@ const CollectionPreview = ({ title, items }) => (
     </div>
   </div>
 );
+
 export default CollectionPreview;
