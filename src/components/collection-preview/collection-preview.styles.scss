@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 .collection-preview {
   display: flex;
   flex-direction: column;
@@ -6,8 +8,10 @@
   width: 100%;
 
   .title {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
+    font-size: clamp(3rem, 3.5vw, 3.5rem);
+    margin-bottom: clamp(0.5rem, 1.2vw, 1.5rem);
+    font-family: 'Style Script', cursive;
+    font-weight: lighter;
   }
 
   .preview {

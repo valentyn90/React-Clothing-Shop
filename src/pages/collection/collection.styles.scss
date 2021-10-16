@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 .collection-page {
   display: flex;
   flex-direction: column;
 
   .title {
-    font-size: 38px;
-    margin: 0 auto 30px;
+    font-family: 'Style Script', cursive;
+    font-size: clamp(3rem, 4.2vw, 4rem);
+    font-weight: lighter;
+    color: #000;
+    margin: 0 auto;
   }
 
   .items {

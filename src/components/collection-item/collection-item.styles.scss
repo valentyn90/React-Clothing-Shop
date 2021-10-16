@@ -43,11 +43,14 @@
 
     .name {
       width: 90%;
-      margin-bottom: 15px;
+      margin-bottom: 1rem;
+      font-size: clamp(0.6rem, 2vw, 1.2rem);
     }
 
     .price {
       width: 10%;
+      font-size: clamp(0.6rem, 2vw, 1.2rem);
+      margin-right: 1rem;
     }
   }
 }
