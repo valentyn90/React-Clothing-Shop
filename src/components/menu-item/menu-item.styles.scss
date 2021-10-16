@@ -9,6 +9,7 @@
   margin: 0 7.5px 15px;
   overflow: hidden;
   border-radius: 0.5rem;
+  transition: all 0.5s ease-out;
 
   &:hover {
     cursor: pointer;
@@ -19,7 +20,7 @@
     }
 
     & .content {
-      opacity: 0.9;
+      opacity: 1;
     }
   }
 
@@ -70,12 +71,12 @@
       font-weight: bold;
       margin: 0 6px 0;
       font-size: 22px;
-      color: #4a4a4a;
+      color: #000;
       font-weight: 400;
     }
 
     .subtitle {
-      font-weight: lighter;
+      font-weight: 300;
       font-size: 16px;
     }
   }

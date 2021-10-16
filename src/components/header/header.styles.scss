@@ -12,6 +12,9 @@
     padding: 1.6rem;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
   }
+  .logo-text {
+    font-size: clamp(2.8rem, 4.2vw, 4rem);
+  }
 
   .options {
     width: 50%;

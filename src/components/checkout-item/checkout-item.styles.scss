@@ -6,7 +6,7 @@
   padding: 1rem 0;
   font-size: 1.4rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   align-items: center;
 
   .image-container {
@@ -24,6 +24,11 @@
   .quantity,
   .price {
     width: 23%;
+    font-size: clamp(0.4rem, 2vw, 1.6rem);
+  }
+  .price {
+    margin-right: auto;
+    vertical-align: middle;
   }
   .quantity {
     display: flex;
@@ -31,7 +36,6 @@
 
     .arrow {
       cursor: pointer;
-      vertical-align: middle;
     }
 
     .value {
@@ -41,7 +45,8 @@
   }
 
   .remove-button {
-    padding-left: 12px;
+    margin-right: auto;
     cursor: pointer;
+    color: #b40600;
   }
 }

@@ -8,12 +8,13 @@ import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
+import { GiLaurelCrown } from 'react-icons/gi';
 import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link to='/' className='logo-container'>
-      <Logo className='logo' />
+      <GiLaurelCrown className='logo-text' />
     </Link>
     <div className='options'>
       <Link to='/shop' className='option'>
