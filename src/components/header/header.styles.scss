@@ -1,89 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
-.header {
-  height: 10rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+// .header {
+//   height: 10rem;
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
 
-  .companyLogo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    .logo-container {
-      height: 100%;
-      width: auto;
-      padding: 1rem;
-      filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
-    }
-    .logo-text {
-      font-size: clamp(2.8rem, 4.2vw, 4rem);
-      margin: 0;
-    }
-    .company {
-      font-family: 'Style Script', cursive;
-      font-size: clamp(2rem, 3.2vw, 3rem);
-      font-weight: lighter;
-      color: #000;
-      margin: 0;
-    }
-  }
-}
+//   .companyLogo {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     .logo-container {
+//       height: 100%;
+//       width: auto;
+//       padding: 1rem;
+//       filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+//     }
+//     .logo-text {
+//       font-size: clamp(2.8rem, 4.2vw, 4rem);
+//       margin: 0;
+//     }
+//     .company {
+//       font-family: 'Style Script', cursive;
+//       font-size: clamp(2rem, 3.2vw, 3rem);
+//       font-weight: lighter;
+//       color: #000;
+//       margin: 0;
+//     }
+//   }
+// }
 
-.options {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+// .options {
+//   width: 50%;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end;
 
-  .option {
-    text-decoration: none;
-    background-color: #091c41;
-    color: #fff;
-    border: 1px solid #091c41;
-    font-size: clamp(0.5rem, 1vw, 0.6rem);
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 2px;
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    margin-left: clamp(0.2rem, 0.8vw, 1rem);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    &.option:hover {
-      background-color: #0f3277;
-      color: #fffff0;
-      border: 1px solid #fffff0;
-    }
-    &.option:active {
-      transform: scale(0.9);
-      box-shadow: inset 0 0 10px #fffff0;
-    }
-    &.option:focus {
-      outline: none;
-    }
-  }
-}
+//   .option {
+//     text-decoration: none;
+//     background-color: #091c41;
+//     color: #fff;
+//     border: 1px solid #091c41;
+//     font-size: clamp(0.5rem, 1vw, 0.6rem);
+//     text-transform: uppercase;
+//     font-weight: 300;
+//     letter-spacing: 2px;
+//     padding: 0.5rem 1rem;
+//     border-radius: 0.3rem;
+//     transition: all 0.3s ease;
+//     cursor: pointer;
+//     margin-left: clamp(0.2rem, 0.8vw, 1rem);
+//     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+//     &.option:hover {
+//       background-color: #0f3277;
+//       color: #fffff0;
+//       border: 1px solid #fffff0;
+//     }
+//     &.option:active {
+//       transform: scale(0.9);
+//       box-shadow: inset 0 0 10px #fffff0;
+//     }
+//     &.option:focus {
+//       outline: none;
+//     }
+//   }
+// }
 
-@media screen and (max-width: 800px) {
-  .header {
-    height: 6.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// @media screen and (max-width: 800px) {
+//   .header {
+//     height: 6.4rem;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
 
-    .company {
-      display: none;
-    }
-    .options {
-      width: 100%;
+//     .company {
+//       display: none;
+//     }
+//     .options {
+//       width: 100%;
 
-      .option {
-        font-size: clamp(0.5rem, 1vw, 0.6rem);
-      }
-    }
-  }
+//       .option {
+//         font-size: clamp(0.5rem, 1vw, 0.6rem);
+//       }
+//     }
+//   }
+// }
+
+.logo-text {
+  font-size: clamp(2.8rem, 4.2vw, 4rem);
+  margin: 0;
 }

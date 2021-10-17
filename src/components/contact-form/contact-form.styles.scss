@@ -1,0 +1,56 @@
+// $sub-color: grey;
+// $main-color: black;
+
+// .wrapper {
+//   width: 40rem;
+//   min-width: 20rem;
+//   display: flex;
+//   flex-direction: column;
+//   margin: 0 auto;
+//   h2 {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     font-weight: 400;
+//     color: $main-color;
+//   }
+//   .group {
+//     position: relative;
+//     width: 40rem;
+//     margin: 2rem auto;
+//     padding: 0;
+
+//     // input {
+//     //   font-family: 'Source Sans Pro', sans-serif;
+//     //   font-size: 1.5rem;
+//     //   padding: 10px 10px 10px 5px;
+//     //   display: block;
+//     //   width: 100%;
+//     //   border: none;
+//     //   border-bottom: 1px solid $sub-color;
+//     //   margin: 0 0 10px;
+//     //   &:focus {
+//     //     outline: none;
+//     //   }
+//     //   &:focus ~ label {
+//     //     @include shrinkLabel;
+//     //   }
+//     // }
+//     .button {
+//       text-align: right;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 850px) {
+//   .wrapper {
+//     width: 100%;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   .button {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
