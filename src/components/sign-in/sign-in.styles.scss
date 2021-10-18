@@ -13,6 +13,11 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
+.google-sign-in-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  vertical-align: middle;
+}
 @media screen and (max-width: 1200px) {
   .buttons {
     display: flex;

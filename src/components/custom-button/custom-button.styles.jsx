@@ -32,6 +32,7 @@ export const CustomButtonContainer = styled.button`
   min-width: 165px;
   width: auto;
   height: 3rem;
+  vertical-align: middle;
   letter-spacing: 2px;
   line-height: clamp(1rem, 1.2vw, 3.4rem);
   margin: 0.5rem;

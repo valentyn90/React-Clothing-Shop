@@ -58,7 +58,12 @@ class SignIn extends React.Component {
               onClick={signInWithGoogle}
               isGoogleSignIn
             >
-              Sign In With Google
+              Sign In &nbsp;
+              <img
+                className='google-sign-in-logo'
+                alt='logo'
+                src='https://www.vectorlogo.zone/logos/google/google-icon.svg'
+              ></img>
             </CustomButton>
           </div>
         </form>

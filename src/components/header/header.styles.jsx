@@ -26,6 +26,7 @@ export const CompanyContainer = styled.h1`
   font-family: 'Style Script', cursive;
   font-size: clamp(2rem, 3.2vw, 3rem);
   font-weight: lighter;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
   color: #000;
   margin: 0;
   @media screen and (max-width: 800px) {
