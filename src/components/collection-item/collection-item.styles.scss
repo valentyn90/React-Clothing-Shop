@@ -7,7 +7,7 @@
   position: relative;
 
   .image {
-    width: 90%;
+    width: 80%;
     height: 95%;
     border-radius: 0.5rem;
     background-size: cover;
@@ -17,7 +17,7 @@
   }
 
   .custom-button {
-    width: 80%;
+    max-width: 80%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@
   }
 
   .collection-footer {
-    width: 90%;
+    width: 70%;
     height: 5%;
     display: flex;
     justify-content: space-between;

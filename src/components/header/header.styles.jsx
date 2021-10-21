@@ -74,7 +74,7 @@ export const OptionContainerStyles = css`
   margin-left: clamp(0.2rem, 0.8vw, 1rem);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   &:hover {
-    background-color: #fffff0;
+    background-color: #fff;
     color: black;
     border: 1px solid black;
     font-weight: 300;

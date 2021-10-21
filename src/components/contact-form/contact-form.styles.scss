@@ -18,22 +18,22 @@
 //     margin: 2rem auto;
 //     padding: 0;
 
-//     // input {
-//     //   font-family: 'Source Sans Pro', sans-serif;
-//     //   font-size: 1.5rem;
-//     //   padding: 10px 10px 10px 5px;
-//     //   display: block;
-//     //   width: 100%;
-//     //   border: none;
-//     //   border-bottom: 1px solid $sub-color;
-//     //   margin: 0 0 10px;
-//     //   &:focus {
-//     //     outline: none;
-//     //   }
-//     //   &:focus ~ label {
-//     //     @include shrinkLabel;
-//     //   }
-//     // }
+//     input {
+//       font-family: 'Source Sans Pro', sans-serif;
+//       font-size: 1.5rem;
+//       padding: 10px 10px 10px 5px;
+//       display: block;
+//       width: 100%;
+//       border: none;
+//       border-bottom: 1px solid $sub-color;
+//       margin: 0 0 10px;
+//       &:focus {
+//         outline: none;
+//       }
+//       &:focus ~ label {
+//         @include shrinkLabel;
+//       }
+//     }
 //     .button {
 //       text-align: right;
 //     }

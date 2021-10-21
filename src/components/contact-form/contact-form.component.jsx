@@ -5,7 +5,7 @@ const ContactForm = ({ handleChange, label, ...otherProps }) => {
   const [status, setStatus] = useState('Submit');
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('Sending...');
+    setStatus('SENDING...');
     const { name, email, message } = e.target.elements;
     let details = {
       name: name.value,
@@ -22,6 +22,7 @@ const ContactForm = ({ handleChange, label, ...otherProps }) => {
     setStatus('Submit');
     let result = await response.json();
     alert(result.status);
+    e.target.reset();
   };
 
   return (
@@ -32,15 +33,32 @@ const ContactForm = ({ handleChange, label, ...otherProps }) => {
         <div className='group'>
           <div>
             <label htmlFor='name'>Name:</label>
-            <input type='text' id='name' className='form-input' required />
+            <input
+              type='text'
+              id='name'
+              className='form-input'
+              required
+              style={{ marginTop: '0' }}
+            />
           </div>
           <div>
             <label htmlFor='email'>Email:</label>
-            <input type='email' id='email' className='form-input' required />
+            <input
+              type='email'
+              id='email'
+              className='form-input'
+              required
+              style={{ marginTop: '0' }}
+            />
           </div>
           <div>
             <label htmlFor='message'>Message:</label>
-            <textarea id='message' className='form-input' required />
+            <textarea
+              id='message'
+              className='form-input'
+              required
+              style={{ marginTop: '0' }}
+            />
           </div>
           <div className='button'>
             <CustomButton type='submit'>{status}</CustomButton>
