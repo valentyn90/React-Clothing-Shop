@@ -1,10 +1,11 @@
 .checkout-item {
   width: 100%;
   display: flex;
+  justify-content: space-around;
   min-height: 6rem;
   border-bottom: 1px solid darkgrey;
   padding: 1rem 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   align-items: center;
@@ -24,14 +25,14 @@
   .quantity,
   .price {
     width: 23%;
-    font-size: clamp(0.4rem, 2vw, 1.6rem);
+    font-size: clamp(0.6rem, 2vw, 1.6rem);
   }
   .price {
     margin-right: auto;
-    vertical-align: middle;
   }
   .quantity {
     display: flex;
+    align-items: center;
     margin: 0 auto;
 
     .arrow {
@@ -39,13 +40,13 @@
     }
 
     .value {
-      margin: 0 10px;
-      vertical-align: middle;
+      margin: 0 1rem;
+      margin-bottom: clamp(0.2rem, 1vw, 0.6rem);
     }
   }
 
   .remove-button {
-    margin-right: auto;
+    margin-right: clamp(1rem, 4vw, 4rem);
     cursor: pointer;
     color: #b40600;
   }
