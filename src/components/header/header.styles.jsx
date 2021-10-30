@@ -44,6 +44,8 @@ export const LogoContainer = styled(Link)`
   height: 100%;
   width: auto;
   padding: 1rem;
+  font-size: clamp(2.8rem, 4.2vw, 4rem);
+  margin: 0;
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
 `;
 export const OptionsContainer = styled.div`

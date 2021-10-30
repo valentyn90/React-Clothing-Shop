@@ -26,7 +26,7 @@ const Header = () => {
       <CompanyLogoContainer>
         <CompanyContainer>CRWN</CompanyContainer>
         <LogoContainer to='/'>
-          <GiLaurelCrown className='logo-text' />
+          <GiLaurelCrown />
         </LogoContainer>
         <CompanyContainer>Clothing Inc.</CompanyContainer>
       </CompanyLogoContainer>
