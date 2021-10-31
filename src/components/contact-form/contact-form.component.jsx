@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import CustomButton from '../custom-button/custom-button.component';
+import './contact-form.styles.scss';
 
 const ContactForm = ({ handleChange, label, ...otherProps }) => {
   const [status, setStatus] = useState('Submit');

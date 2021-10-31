@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
 
 html {
   scroll-behavior: smooth;
@@ -15,7 +17,7 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
-  padding: 1rem 4rem;
+  padding: 1rem 16rem;
   font-family: 'Raleway', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -33,6 +35,15 @@ body {
     #fffff0
   );
   animation: fadeInAnimation ease-out 3s 1 forwards;
+  @media (max-width: 1200px) {
+    padding: 1rem 6rem;
+  }
+  @media (max-width: 1000px) {
+    padding: 1rem 3rem;
+  }
+  @media (max-width: 800px) {
+    padding: 0.7rem;
+  }
 }
 @keyframes fadeInAnimation {
   0% {
@@ -61,3 +72,6 @@ a {
   text-decoration: none;
   color: #000;
 }
+  
+
+`;

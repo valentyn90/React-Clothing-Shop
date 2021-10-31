@@ -29,13 +29,13 @@ const getButtonStyles = (props) => {
 };
 
 export const CustomButtonContainer = styled.button`
-  min-width: 165px;
+  max-width: 165px;
   width: auto;
   height: 3rem;
   vertical-align: middle;
   letter-spacing: 2px;
   line-height: clamp(1rem, 1.2vw, 3.4rem);
-  margin: 0.5rem;
+  margin: 1rem 0.5rem;
   padding: 0 1rem;
   font-size: clamp(0.5rem, 1.2vw, 0.8rem);
   font-family: 'Source Sans Pro', sans-serif;

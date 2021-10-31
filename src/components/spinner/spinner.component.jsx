@@ -4,7 +4,7 @@ import './spinner.styles.scss';
 
 const Spinner = () => (
   <div className='spinner-overlay'>
-    <div className='spinner-container' />
+    <span className='loader-16'></span>
   </div>
 );
 

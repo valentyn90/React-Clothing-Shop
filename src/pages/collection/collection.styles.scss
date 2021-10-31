@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-
 .collection-page {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   .title {
     font-family: 'Style Script', cursive;
@@ -17,9 +17,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+  }
 
-    & .collection-item {
-      margin-bottom: 30px;
+  @media screen and (max-width: 1200px) {
+    .items {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 15px;
     }
+  }
+  @media screen and (max-width: 800px) {
+    .items {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  & .collection-item {
+    margin-bottom: 30px;
   }
 }

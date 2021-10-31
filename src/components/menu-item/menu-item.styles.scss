@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-
 .menu-item {
   min-width: 30%;
   height: 240px;
@@ -36,6 +35,9 @@
 
   &:last-child {
     margin-left: 7.5px;
+  }
+  @media screen and (max-width: 800px) {
+    height: 200px;
   }
 
   .background-image {

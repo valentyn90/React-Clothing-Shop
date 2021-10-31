@@ -9,10 +9,15 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   @media screen and (max-width: 800px) {
+    margin-bottom: 3rem;
     height: 6.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media (max-width: 500px) {
+    min-height: 6.4rem;
+    flex-direction: column;
   }
 `;
 
