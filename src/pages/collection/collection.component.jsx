@@ -1,4 +1,4 @@
-import React, { useContext, lazy, Suspense } from 'react';
+import React, { useContext, Suspense } from 'react';
 import Spinner from '../../components/spinner/spinner.component';
 import CollectionItem from '../../components/collection-item/collection-item.component';
 import CollectionsContext from '../../contexts/collections/collections.context';

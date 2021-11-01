@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import Spinner from '../../components/spinner/spinner.component';
 
 import './contact-form.styles.scss';
