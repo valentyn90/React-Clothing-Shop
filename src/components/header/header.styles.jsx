@@ -11,13 +11,14 @@ export const HeaderContainer = styled.div`
   @media screen and (max-width: 800px) {
     margin-bottom: 3rem;
     height: 6.4rem;
-    display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
   @media (max-width: 500px) {
     min-height: 6.4rem;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -49,9 +50,15 @@ export const LogoContainer = styled(Link)`
   height: 100%;
   width: auto;
   padding: 1rem;
-  font-size: clamp(2.8rem, 4.2vw, 4rem);
+  font-size: clamp(3.2rem, 4vw, 4rem);
   margin: 0;
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+  @media screen and (max-width: 800px) {
+    margin-left: 8rem;
+  }
+  @media screen and (max-width: 500px) {
+    margin: 0;
+  }
 `;
 export const OptionsContainer = styled.div`
   width: 50%;
@@ -61,6 +68,9 @@ export const OptionsContainer = styled.div`
   justify-content: flex-end;
   @media screen and (max-width: 800px) {
     width: 100%;
+  }
+  @media screen and (max-width: 500px) {
+    justify-content: space-evenly;
   }
 `;
 

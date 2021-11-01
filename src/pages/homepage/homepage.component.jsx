@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
+import Spinner from '../../components/spinner/spinner.component';
 import Directory from '../../components/directory/directory.component';
 import { HomepageContainer } from './homepage.styles';
 
 const HomePage = () => {
   return (
     <HomepageContainer>
-      <Directory />
+      <Suspense fallback={<Spinner />}>
+        <Directory />
+      </Suspense>
     </HomepageContainer>
   );
 };
