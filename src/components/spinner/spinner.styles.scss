@@ -1,9 +1,8 @@
 .spinner-overlay {
   height: 60vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 .loader-16 {
   width: 48px;
