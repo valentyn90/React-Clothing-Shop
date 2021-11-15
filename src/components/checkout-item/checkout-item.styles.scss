@@ -7,7 +7,7 @@
   padding: 1rem 0;
   font-size: 1.2rem;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   align-items: center;
 
   .image-container {
@@ -26,6 +26,7 @@
   .price {
     width: 23%;
     font-size: clamp(0.6rem, 2vw, 1.6rem);
+    font-weight: lighter;
   }
   .price {
     margin-right: auto;
@@ -34,7 +35,7 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-
+    font-size: clamp(0.6rem, 2vw, 1.6rem);
     .arrow {
       cursor: pointer;
     }
